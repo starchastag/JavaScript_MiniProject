@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    min-height: 100vh;
+    width: 100%;
+    background:linear-gradient(#dbe6c4, #ba4d4d);
+    padding-left: 20px;
+    padding-top: 20vh;
+}
+
+#container h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.items{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(77, 74, 74);
+    padding: 20px 40px;
+}
+.items input{
+    height: 30px;
+    width: auto;
+    border: 2px solid grey;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    text-shadow:inset 0px 1px 0px #ced9bf;
+    background:linear-gradient(#dbe6c4, #9ba892);
+
+}
+
+.items button{
+    height: 30px;
+    width: auto;
+    border: 2px solid grey;
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    text-shadow:inset 0px 1px 0px #ced9bf;
+    background:linear-gradient(#dbe6c4, #9ba892);
+    font-weight: 600;
+}
+
+#taskList{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    padding-top: 10px;
+}
+
+.footer h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size:small;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+.footer h2{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: large;
+    padding-top: 5px;
+    color: rgb(116, 73, 58);
+}
+
+/* stack use kiye h item wale div ko center krne k liye */
+
+.stack{
+    display: flex;
+    justify-content: center;
+}
