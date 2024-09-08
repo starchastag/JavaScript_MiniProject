@@ -1,0 +1,57 @@
+.row1{
+    width: 900px;
+    height: 100px;
+    background-color: blue;
+}
+.row2{
+    width: 900px;
+    height: 400px;
+    background-color: red;
+}
+.row1c1{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    float: left;
+}
+.row1c2{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    float: left;
+}
+.row1c2{
+    width: 400px;
+    height: 100px;
+    float: left;
+    text-align: center;
+
+}
+
+.c3{
+    width: 300px;
+    height: 100px;
+    float: left;
+    text-align: center;
+
+}
+.footer{
+    width: 900px;
+    background-color: burlywood;
+    
+}
+.iip{
+    width: 400px;
+    text-align: center;
+    float: left;
+    background-color: burlywood;
+    height: 100px;
+
+}
+.spa{
+    width: 500px;
+    text-align: center;
+    float: left;
+    background-color: burlywood;
+    height: 100px;
+}
